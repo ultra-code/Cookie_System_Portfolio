@@ -689,12 +689,34 @@ public class PlayerController : MonoBehaviour
         // 젤리 획득
         if (other.CompareTag("Jelly"))
         {
-            Debug.Log("젤리 먹음! 점수 +100");
+            var jelly = other.GetComponent<JellyItem>();
+            
+            // JellyItem 컴포넌트 누락 시 부모에서 찾기
+            if (jelly == null)
+            {
+                jelly = other.GetComponentInParent<JellyItem>();
+            }
+            
+            // 여전히 null이면 경고 로그 출력 (원인 추적용)
+            if (jelly == null)
+            {
+                Debug.LogWarning($"[PlayerController] JellyItem 컴포넌트가 없습니다 " +
+                    $"(name='{other.name}', tag='{other.tag}', layer={other.gameObject.layer}, " +
+                    $"parent='{other.transform.parent?.name}', root='{other.transform.root.name}')");
+                return;
+            }
+            
+            // JellyId 기반 점수 적용
+            // [중요] JellyId는 JellyData.csv의 ID(예: BasicJelly=1001)를 입력해야 함. 1 같은 값 사용 금지.
+            int id = jelly.JellyId;
+            int score = DataManager.Instance.GetJellyBaseScore(id);
+            
+            Debug.Log($"젤리 획득! JellyId={id}, Score={score}");
             
             // GameManager에 점수 추가
             if (GameManager.Instance != null)
             {
-                GameManager.Instance.AddScore(100);
+                GameManager.Instance.AddScore(score);
             }
             
             // [수정] Destroy 대신 SetActive(false)로 숨김 (맵 재활용 시 다시 나타남)

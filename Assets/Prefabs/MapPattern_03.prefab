@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 3169655477980156075}
   - component: {fileID: 555782109524104663}
   - component: {fileID: 469903045761635239}
+  - component: {fileID: 7254959556879358763}
   m_Layer: 0
   m_Name: Circle2
   m_TagString: Jelly
@@ -260,6 +261,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7254959556879358763
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239714935777588486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &2108903202644621171
 GameObject:
   m_ObjectHideFlags: 0
@@ -271,6 +285,7 @@ GameObject:
   - component: {fileID: 4057545382672559375}
   - component: {fileID: 2693306535389371574}
   - component: {fileID: 8318783920538782610}
+  - component: {fileID: 6850078789282577467}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Jelly
@@ -390,6 +405,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6850078789282577467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2108903202644621171}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &3079734210382416991
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +429,7 @@ GameObject:
   - component: {fileID: 5849184481552869858}
   - component: {fileID: 8150588421128456756}
   - component: {fileID: 975822776963668303}
+  - component: {fileID: 7551659381792422119}
   m_Layer: 0
   m_Name: Circle3
   m_TagString: Jelly
@@ -520,6 +549,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7551659381792422119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3079734210382416991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &5617406149985702496
 GameObject:
   m_ObjectHideFlags: 0
@@ -661,6 +703,7 @@ GameObject:
   - component: {fileID: 21599643873648741}
   - component: {fileID: 7761152393172208968}
   - component: {fileID: 6340168259617653218}
+  - component: {fileID: 7670708959731817807}
   m_Layer: 0
   m_Name: Circle4
   m_TagString: Jelly
@@ -780,6 +823,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &7670708959731817807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6055229282677967340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &6481343087097402765
 GameObject:
   m_ObjectHideFlags: 0

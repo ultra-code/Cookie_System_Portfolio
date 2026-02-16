@@ -141,6 +141,7 @@ GameObject:
   - component: {fileID: 846546370532317476}
   - component: {fileID: 5957782179474003656}
   - component: {fileID: 8048135565647396044}
+  - component: {fileID: 9103037654670108686}
   m_Layer: 0
   m_Name: Circle2
   m_TagString: Jelly
@@ -260,6 +261,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &9103037654670108686
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662400355756122270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &2208694422737002404
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,6 +715,7 @@ GameObject:
   - component: {fileID: 7245796258396875057}
   - component: {fileID: 224220790753137415}
   - component: {fileID: 2155037326979750314}
+  - component: {fileID: 6979845777227385373}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Jelly
@@ -820,6 +835,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &6979845777227385373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540618748873998961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &5539993450086935963
 GameObject:
   m_ObjectHideFlags: 0
@@ -961,6 +989,7 @@ GameObject:
   - component: {fileID: 4491605220464383996}
   - component: {fileID: 4596587235916398209}
   - component: {fileID: 3079677130881677972}
+  - component: {fileID: 5593707749964670506}
   m_Layer: 0
   m_Name: Circle3
   m_TagString: Jelly
@@ -1080,6 +1109,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &5593707749964670506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6254802376856345752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac42c9a0e1e9dd94cbf6f7c2291a97ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  JellyId: 1001
 --- !u!1 &7835378008878809701
 GameObject:
   m_ObjectHideFlags: 0
