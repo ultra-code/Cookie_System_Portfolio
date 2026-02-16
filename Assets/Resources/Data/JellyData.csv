@@ -1,0 +1,8 @@
+ID,Type,Name,BaseScore,HealAmount,Effect,PrefabPath
+1001,JELLY,BasicJelly,18888,0,NONE,Prefabs/Jellies/BasicJelly
+1002,JELLY,YellowBear,40555,0,NONE,Prefabs/Jellies/YellowBear
+1003,JELLY,PinkBear,58444,0,NONE,Prefabs/Jellies/PinkBear
+1004,JELLY,RainbowBear,234567,0,NONE,Prefabs/Jellies/RainbowBear
+2001,POTION,SmallPotion,2000,10,NONE,Prefabs/Items/SmallPotion
+2002,POTION,LargePotion,5000,40,NONE,Prefabs/Items/LargePotion
+3001,ITEM,MagnetItem,1000,0,MAGNET,Prefabs/Items/Magnet

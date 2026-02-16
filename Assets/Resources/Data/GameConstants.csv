@@ -1,0 +1,8 @@
+Key,Value,Description
+Gravity,-30,기본 중력값 (Physics2D 안쓰고 직접 계산)
+JumpForce1,15,1단 점프 힘
+JumpForce2,12,2단 점프 힘 (1단보다 약하게 설정)
+BaseMoveSpeed,10,기본 달리기 속도
+EnergyDrainRate,3,초당 체력 감소량
+HitInvincibleTime,2,충돌 후 무적 시간(초)
+SlideHitboxRatio,0.5,슬라이드 시 히트박스 높이 비율 (50%)

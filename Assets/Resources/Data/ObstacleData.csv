@@ -1,0 +1,4 @@
+ID,Name,Damage,IsDestructible,SpeedDebuff,PrefabPath
+3001,Spike_Static,40,FALSE,0,Prefabs/Obstacles/Spike
+3002,Flying_Sword,20,TRUE,0.3,Prefabs/Obstacles/Sword
+3003,Wall_Breakable,10,TRUE,0.1,Prefabs/Obstacles/Wall
